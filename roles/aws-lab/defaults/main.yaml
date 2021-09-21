@@ -16,6 +16,6 @@ ec2_info:
     os_type: linux
     disk_space: 10
     architecture: x86_64
-    filter: 'RHEL-8.4'
+    filter: 'RHEL-7.4*GA*'
     username: ec2-user
 key_dir: "{{ playbook_dir }}/roles/aws-lab/files/aws-key.pub"
